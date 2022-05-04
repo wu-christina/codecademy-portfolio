@@ -1,0 +1,242 @@
+/*  UNIVERSAL STYLES */
+
+html {
+    font-size: 16px;
+    background-color: #F2DBCE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Anek Odia', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    color: #8C533E;
+}
+
+h2 {
+    font-family: 'Anek Odia', sans-serif;
+    letter-spacing: 0.1rem;
+    color: #BF6550;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+
+.about-me-header {
+    text-align: left;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.skills-header, 
+.projects-header, 
+.contact-header {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* HEADER & NAVIGATION SECTION */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.625rem 2.5rem;
+    padding: 1rem 2rem 0 2rem;
+}
+
+.nav-section {
+    display: flex;
+    gap: 0 1.25rem;
+    list-style: none;
+    padding-bottom: rem;
+}
+
+.nav-link {
+    padding-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: #BF6550;
+}
+
+
+/* ABOUT ME SECTION */
+
+div.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6.25rem;
+} 
+
+.about-me-text{
+    width: 18.75rem;
+    text-align: left;
+    padding: 3.125rem;
+    line-height: 1.5;
+}
+
+.profile-pic {
+    height: 50%;
+    width: 50%;
+    min-width: 18.75rem;
+    max-width: 25rem;
+    object-fit: contain;
+}
+
+/* SKILLS SECTION */
+
+#skills{
+    margin-top: 6rem;
+}
+
+.skill-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0 6.125rem;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill img {
+    width: 3.125rem;
+    margin-bottom: 1rem;
+}
+
+.skill p{
+    text-align: center;
+}
+
+/* PROJECTS SECTION */
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0 5rem;
+    margin-bottom: 6rem;
+}
+
+.button-overlay {
+    position: relative;
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.project-image {
+    opacity: 1;
+    display: block;
+    width: 19rem;
+    height: 19rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: cover;
+}
+  
+.project-description {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.button-overlay:hover .project-image {
+    opacity: 0.3;
+  }
+  
+.button-overlay:hover .project-description {
+    opacity: 1;
+}
+  
+.text {
+    background-color: #261008;
+    color: #F2DBCE;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    width: 10rem;
+}
+
+.text h3{
+    font-family: 'Anek Odia', sans-serif;
+    font-size: 1.2rem;
+    color: #BF6550;
+}
+
+.text p {
+    color: white;
+}
+
+.btn {
+    background-color: #F2DBCE;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 1rem;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover{
+    background-color: #BF6550
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+/* CONTACT SECTION */
+
+.contact-header {
+    text-align: center;
+    color: #F2DBCE;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    background-color: #8C533E;
+}
+
+.contact-icon {
+    padding: 0 3rem;
+}
+
+.contact-icon-group a {
+    text-decoration: none;
+}
+
+.contact-line {
+    padding-bottom: 1.4rem;
+}
+
+.contact-text {
+    color: #F2DBCE;
+}
