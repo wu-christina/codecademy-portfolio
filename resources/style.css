@@ -33,12 +33,14 @@ p {
     text-align: left;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
+    font-size: 1.5rem;
 }
 
 
 .skills-header, 
 .projects-header, 
 .contact-header {
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
@@ -59,7 +61,6 @@ header {
     display: flex;
     gap: 0 1.25rem;
     list-style: none;
-    padding-bottom: rem;
 }
 
 .nav-link {
@@ -239,4 +240,56 @@ div.about-me-container {
 
 .contact-text {
     color: #F2DBCE;
+}
+
+
+/* SMALLER SCREENS */
+
+@media only screen and (max-device-width: 480px) {
+
+    h1 {
+        font-size: 4rem;
+        display: block;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+        display: block;
+    }
+
+    .nav-section {
+        display: block;
+    }
+
+    .about-me-container {
+       flex-direction: column-reverse;
+    }
+
+    .about-me-text{
+        width: 90%;
+    }
+  
+    .profile-pic {
+        width: 20%;
+    }
+
+   .skill {
+       padding-top: 1rem;
+       flex-wrap: wrap;
+   }
+
+   .button-overlay {
+       margin-top:2rem;
+   }
+
+   .project-image{
+       width: 10rem;
+       height: 10rem;
+   }
+
+   .skills-header, 
+    .projects-header, 
+    .contact-header {
+    font-size: 3rem;
+   
 }
