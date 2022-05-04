@@ -253,7 +253,7 @@ div.about-me-container {
     }
 
     .nav-link {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         display: block;
     }
 
@@ -287,9 +287,10 @@ div.about-me-container {
        height: 10rem;
    }
 
+   .about-me-header,
    .skills-header, 
     .projects-header, 
     .contact-header {
     font-size: 3rem;
-   
+    }
 }
