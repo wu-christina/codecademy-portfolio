@@ -234,12 +234,12 @@ div.about-me-container {
     text-decoration: none;
 }
 
-.contact-line {
-    padding-bottom: 1.4rem;
-}
-
 .contact-text {
     color: #F2DBCE;
+}
+
+.contact-line {
+    padding-bottom: 1.4rem;
 }
 
 
@@ -253,7 +253,7 @@ div.about-me-container {
     }
 
     .nav-link {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         display: block;
     }
 
@@ -291,6 +291,10 @@ div.about-me-container {
    .skills-header, 
     .projects-header, 
     .contact-header {
-    font-size: 3rem;
+    font-size: 4rem;
+    }
+
+    p {
+        font-size: 2rem;
     }
 }
